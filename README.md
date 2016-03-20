@@ -1,6 +1,13 @@
 # dirTransfer
 
-# Setup
+Transfer a directory from one repo to another, maintaining the directory's commit history from the original repository.  
+
+DO NOT RUN THIS SCRIPT FROM INSIDE A GIT REPO. 
+
+USE WITH CAUTION. 
+
+
+## Setup
 
 1. Add `dirTransfer.sh` to a directory of your choice.
 
@@ -10,7 +17,7 @@
 
 1. To run the script, `./dirTransfer.sh`.
 
-# Sample Inputs
+## Sample Inputs
 
 The script will ask for the source and destination repos and directories. Each directory path should be relative to the root folder of its repo. 
 
