@@ -16,8 +16,6 @@
   # Destination directory (relative path *inside* destination repo)? -> 
     # 01-front-end-basics/json-and-html-string/22-23
 
-echo "Standing on the shoulders of ..."
-
 printf "\n  Clone url of source repo? -> "
 read SOURCE_REPO
 printf "  Source directory (relative path *inside* source repo)? -> "
@@ -55,12 +53,13 @@ git filter-branch --subdirectory-filter $SOURCE_DIR -- --all
 echo "\nrenaming to $DESTINATION_DIR"
 mkdir -p $DESTINATION_DIR 
 mv ./* $DESTINATION_DIR 
+
 echo "commiting change"
 git add . --all
 git commit -m "isolated $SOURCE_DIR as $DESTINATION_DIR"
 # sleep 2s
 
-echo "\npulling source data into destination repo"
+echo "\npulling source data into tmp-destination repo"
 cd ../tmp-destination
 git checkout -b $DESTINATION_DIR
 git remote add tmp-source ../tmp-source
