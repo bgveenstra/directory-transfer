@@ -21,11 +21,7 @@ USE WITH CAUTION.
 
 The script will ask for the source and destination repos and directories. Each directory path should be relative to the root folder of its repo. 
 
-> Clone url of source repo? ->    
->	  https://github.com/sf-wdi-22-23/modules-22.git    
-> Source directory (relative path *inside* source repo)? ->    
->   w02-working-with-objects/d3-dawn-forms/    
-> Clone url of destination repo? ->     
->   https://github.com/bgveenstra/shared_modules.git    
-> Destination directory (relative path *inside* destination repo)? ->     
->   01-front-end-basics/json-and-html-string/22-23    
+> Clone url of source repo? ->   https://github.com/sf-wdi-22-23/modules-22.git    
+> Source directory (relative path *inside* source repo)? ->   w02-working-with-objects/d3-dawn-forms/    
+> Clone url of destination repo? ->     https://github.com/bgveenstra/shared_modules.git    
+> Destination directory (relative path *inside* destination repo)? ->   01-front-end-basics/json-and-html-string/22-23    
